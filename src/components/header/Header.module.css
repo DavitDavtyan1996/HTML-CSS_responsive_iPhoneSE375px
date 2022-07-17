@@ -1,0 +1,238 @@
+.gradient {
+   height: 780px;
+z-index: 1;
+background-image: linear-gradient(rgba(14, 17, 28, 0.8), rgba(14, 17, 28, 0))
+
+}
+
+.header {
+   height: 780px;
+   background-image: url("/src/img/header.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   z-index: 0;
+}
+
+.headerNav {
+   padding-top: 20px;
+   color: white ;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.navLeftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLeftSide p {
+   margin: 0 22px;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 18px;
+}
+
+.navLeftSide p:hover {
+   cursor: pointer;
+}
+
+.navLeftSide p:last-child {
+   display: flex;
+   align-items: center;
+}
+
+.navLeftSide p img {
+   margin-left: 5px;
+}
+
+
+.navRightSide {
+   margin-left: 375px;
+   margin-right: 40px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.navRightSide div {
+  margin-left: 27px;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navRightSide div p {
+   margin-left: 12px;
+}
+
+
+
+.navRightSide div:hover {
+   cursor: pointer;
+}
+
+.navRightSide button:hover {
+   cursor: pointer;
+}
+
+.navRightSide P img {
+   margin-right: 10px;
+}
+
+.navRightSide button {
+   margin-left: 16px;
+   width: 130px;
+   height: 35px;
+   background: #FFDB11;
+   font-size: 13px;
+   line-height: 18px;
+   border: none;
+   font-weight: 600;
+}
+
+.tours {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 280px;
+}
+
+.tours h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 47.74px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.buttons {
+   margin-top: 20px;
+}
+
+.buttons button {
+   width: 130px;
+   height: 40px;
+   margin: 0 8px;
+   font-size: 13px;
+   line-height: 18px;
+   
+}
+
+.buttons button:hover {
+   cursor: pointer;
+}
+
+.backgroundWhite {
+   background: white;
+   border: none;
+   font-weight: 700;
+}
+
+.backgroundYellow {
+   background: #FFDB11;
+   border: none;
+   font-weight: 700;
+}
+
+.backgroundOpacity {
+ 
+   background-color: rgba(255,255,255,0.2);
+   border-color: white;
+   color: white;
+   border: 2px solid white;
+   font-weight: 400;
+   
+}
+
+.burger {
+   display: none;
+}
+
+
+
+
+
+@media (max-width: 375px) {
+
+
+
+   .header {
+      width: 100%;
+      height: 550px;
+      background-image: url("/src/img/mobileHeader.jpg");
+      }
+
+      .navRightSide div p {
+         display: none;
+      }
+
+      .navRightSide button {
+         display: none;
+      }
+
+      .burger {
+         display: block;
+         margin-left: 25px;
+      }
+
+      .navRightSide {
+         margin-top: -40px;
+         margin-right: 15px;
+
+      } 
+        
+
+      .navRightSide div img {
+         
+         height: 20px;
+      }
+      
+      .tours h1 {
+         font-size: 25px;
+         line-height: 34px;
+      }
+
+      .tours {
+         text-align: center;
+         width: 250px;
+         margin-left: 60px;
+         margin-top: 100px;
+      }
+
+
+
+   .buttons {
+     margin-top: 10px;
+      
+   }
+
+   .buttons button {
+       width: 180px;
+       height: 35px;
+       margin-top: 10px;
+   }
+
+   .backgroundWhite {
+      background-color: rgba(255,255,255,0.2);
+      border-color: white;
+      color: white;
+      border: 2px solid white;
+      font-weight: 400;
+   }
+
+   .backgroundWhite span {
+      display: none;
+   }
+}
+
+
+
+

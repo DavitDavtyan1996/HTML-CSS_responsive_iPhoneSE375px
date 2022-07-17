@@ -1,0 +1,98 @@
+.area {
+    height: 635px;
+    background-color: #F4F4F4;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.area h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    line-height: 100%;
+    letter-spacing: 5%;
+}
+
+.area .map {
+
+    width: 1900px;
+    z-index: 0;
+}
+
+
+
+.mobileMap {
+    z-index: 0;
+    display: none;
+}
+
+.area .union {
+    position: absolute;
+    top: 412px;
+    left: 945px;
+    z-index: 1;
+}
+
+.checked {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.check {
+    position: absolute;
+    top: 424px;
+    left: 975px;
+    z-index: 2;
+    accent-color: #414141;
+}
+
+.checked p {
+    margin-left: 10px;
+
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.checked input {
+    width: 16px;
+}
+
+.yellow {
+    background: white;
+    accent-color: rgb(146, 146, 40);
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .area {
+        height: 370px;
+    }
+
+    .area .map {
+        display: none;
+    }
+
+    .mobileMap {
+        display: block;
+        position: relative;
+    }
+
+    .check {
+        top: 280px;
+        left: 220px;
+    }
+
+    .area .union {
+        top: 272px;
+        left: 200px;
+        width: 150px;
+    }
+
+ 
+}

@@ -1,0 +1,134 @@
+.work {
+    display: flex;
+    height: 900px;
+    background-color: #F4F4F4;
+}
+
+.workNav:hover {
+    cursor: pointer;
+}
+
+.workNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 900px;
+    /* padding: 10px 0; */
+    box-shadow: 1px 1px 20px rgb(180, 176, 176);
+
+}
+
+.arrLine {
+    width: 100px;
+    height: 2px;
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+
+.workType {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.workType:hover {
+    background-color: #F4F4F4;
+    border-left: 8px solid rgba(255, 219, 17, 1);
+}
+
+.workType h4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 20px;
+    margin-top: 15px;
+
+}
+
+.workcontent {
+    margin-left: 30px;
+    padding: 50px 5px 25px 15px;
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    .work {
+        flex-direction: column;
+        height: 710px;
+    }
+
+
+    .workNav {
+        /* padding-top: 20px; */
+        flex-direction: row;
+        height: 121px;
+        width: 100%;
+        justify-content: space-around;
+        box-shadow: 0px 0px 0px rgb(180, 176, 176);
+        border-bottom: #FFDB11 2px solid;
+    }
+
+    .bColor {
+        background-color: #F4F4F4;
+        padding: 17px;
+        border: #E7E7E7 solid 1px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+
+    .imgUrl {
+        background-color: #F4F4F4;
+    }
+
+    .workType {
+        margin: 1px;
+        height: 0px;
+    }
+
+
+    .workType h4 {
+        display: none;
+    }
+
+
+    .arrLine {
+        display: none;
+    }
+
+    .arrUP {
+        display: none;
+    }
+
+    .arrDown {
+        display: none;
+    }
+
+    .workNav {
+        overflow-x: auto;
+
+
+    }
+
+    .workNav::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .workType:hover {
+        background-color: white;
+        border-left: 0px solid rgba(255, 219, 17, 1);
+    }
+
+}
