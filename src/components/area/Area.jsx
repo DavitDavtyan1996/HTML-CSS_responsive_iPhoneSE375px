@@ -9,7 +9,7 @@ const Area = () => {
       <img className={s.map} src="/image/map.jpg" />
       <img className={s.mobileMap} src="/image/mobileMap.jpg" />
 
-      <img className={s.union} src="/image/union.png" />
+      <img className={s.union} src="/image/Union.png" />
       <div className={s.check}>
         <div className={s.checked}>
           <input
